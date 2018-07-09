@@ -4,7 +4,7 @@ Given a rectangular grid of letters, your assignment is to navigate through the 
 
 * Vowels (a, e, i, o, u) increase your score by 3 points.
 * Consonants decrease your score by 2 points.
-* Since y only sometimes a vowel, it decreases your score by 10 points, because special cases are complicated.
+* Since y is only sometimes a vowel, it decreases your score by 10 points, because special cases are complicated.
 
 You are only allowed to connect adjacent letters along the cardinal directions (moving diagonally is not allowed). Note that a grid may have more than one solution. This does not need to be a valid word in any language, simply a high-scoring string of letters.
 
