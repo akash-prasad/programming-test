@@ -18,7 +18,8 @@ As you are analyzing and writing this program, take note of any questions that y
 ## Setup Instructions
 
 1. Create a fork of this repository
-	1. If you have a Bitbucket account, you should be able to fork this repository directly. If not, clone this repository and then set up git to commit to your personal GitHub account (or any other git hosting service. We need to be able to clone your repository.)
+	1. If you have a Bitbucket account, you should be able to fork this repository directly. (When signed into bitbucket, click the "+" on the far left sidebar and choose "fork this repository" from the "Get to work" section.)
+	2. If not, clone this repository and then set up git to commit to your personal GitHub account (or any other git hosting service. We need to be able to clone your repository.)
 2. Commit frequently! We are as interested in your workflow as your result.  Make sure to include good commit messages. 
 3. When you're finished, send us a link to your public repository on GitHub or Bitbucket
 	4. If you haven't set up a public repo send us a `.zip` of your working copy, complete with the `.git` directory.  
