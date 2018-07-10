@@ -10,7 +10,7 @@ You are only allowed to connect adjacent letters along the cardinal directions (
 
 Please write a Javascript program that allows the user to input a grid into a textarea, and solves that grid for the highest-scoring "word." Your program should output the "word" that it found, and its score. Feel free to use any tools (books, internet, etc.) that you normally use in your day-to-day programming.
 
-Please use this page as a starting point for your application. If time permits, feel free to update the style and structure of this page to improve the User Interface and Experience.
+Please use this page as a starting point for your application. If time permits, feel free to update the style and structure of this page to improve the User Interface and Experience. This exercise has a time limit of 2 hours, but feel free to spend some initial time analyzing this task before diving into coding. It is not necessary to complete this exercise within the time limit.
 
 As you are analyzing and writing this program, take note of any questions that you have about the requirements, and any assumptions that you were forced to make. We left some requirements intentionally vague, and would like you to put yourself in the position of a developer receiving these requirements from a customer. What clarifying questions would you ask them before you started, or while demonstrating the software to them? Don't worry about making the wrong assumptions - the important thing is that you came up with questions to ask, not that you "read our minds." Do you have any enhancements that you want to suggest, or pre-emptively implement? If you had days instead of hours to implement this, how would you improve your solution?
 
