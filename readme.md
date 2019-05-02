@@ -10,13 +10,25 @@ You are only allowed to connect adjacent letters along the cardinal directions (
 
 Please write a Javascript program that allows the user to input a grid into a textarea, and solves that grid for the highest-scoring "word." Your program should output the "word" that it found, and its score. Feel free to use any tools (books, internet, etc.) that you normally use in your day-to-day programming. Use these files as a starting point for your program.
 
-**This exercise has a time limit of 2 hours**, not counting any time that you spend initially analyzing this task before diving into coding. Please make a work-in-progress commit at least once every 30 minutes with a message describing what you've done. At the end, please make a FINAL commit. It is not required or expected to complete this exercise within the 2-hour time limit, code committed after the time limit will not be evaluated.
+## A Two-Hour Tour
 
-As you are analyzing and writing this program, take note of any questions that you have about the requirements, and any assumptions that you were forced to make. We left some requirements intentionally vague, and would like you to put yourself in the position of a developer receiving these requirements from a customer. Don't worry about making the wrong assumptions - the important thing is that you came up with questions to ask, not that you "read our minds." After your final code commit, please answer the following questions either in an email or a readme file:
+**This exercise has a time limit of 2 hours**, not counting any time that you spend initially analyzing this task before diving into coding. Please make a work-in-progress commit at least once every 30 minutes with a message describing what you've done. At the end, please make a FINAL commit. 
+
+*It is not required or expected that you will complete this exercise within the 2-hour time limit.* 
+
+Code committed after the time limit will not be evaluated.
+
+As you are analyzing and writing this program, take note of any questions that you have about the requirements, and any assumptions that you were forced to make. We left some requirements intentionally vague, and would like you to put yourself in the position of a developer receiving these requirements from a customer. Don't worry about making the wrong assumptions - the important thing is that you came up with questions to ask, not that you "read our minds." 
+
+## Analysis
+
+
+After your final code commit, please answer the following questions either in an email or a readme file:
 
 1. What clarifying questions would you ask the users before you started, or while demonstrating the software to them?
 2. Do you have any enhancements that you want to suggest, or pre-emptively implement?
 3. If you had days instead of hours to implement this, how would you improve your solution?
+4. What assumptions did you make? Did they end up making the task easier or harder? 
 
 ## Setup Instructions
 
