@@ -8,7 +8,7 @@ Given a rectangular grid of letters, your assignment is to navigate through the 
 
 You are only allowed to connect adjacent letters along the cardinal directions (moving diagonally is not allowed). Note that a grid may have more than one solution. This does not need to be a valid word in any language, simply a high-scoring string of letters.
 
-Please write a Javascript program that allows the user to input a grid into a textarea, and solves that grid for the highest-scoring "word." Your program should output the "word" that it found, and its score. Feel free to use any tools (books, internet, etc.) that you normally use in your day-to-day programming. Use these files as a starting point for your program.
+Please write a Javascript program that allows the user to input a grid into a textarea, and solves that grid for the highest-scoring "word." Your program should output the "word" that it found, and its score. Feel free to use any tools (books, internet, etc.) that you normally use in your day-to-day programming. Use the files in this repository as a starting point for your program, but feel free to change or add to them in any way you see fit.
 
 ## A Two-Hour Tour
 
