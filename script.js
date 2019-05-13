@@ -18,6 +18,11 @@ $(function () {
         return -2;
     }
 
+    function calculatingTheScore(grid, visited, row, col, word, score) {
+
+
+    }
+
     function textToArray(text) {
         let lines = text.split("\n");
 
@@ -28,8 +33,20 @@ $(function () {
         return lines;
     }
 
+    function findMax(grid) {
+        let visited = new Array(10);
+
+        for (let i = 0; i < 10; i++) {
+            visited[i] = new Array(30);
+        }
+
+        calculatingTheScore(grid, visited, 0, 0, "", 0);
+    }
+
     $("#mazeForm").on("submit", function (event) {
         let mazeEntry = $.trim($("#mazeEntry").val());
+
+        findMax(textToArray(mazeEntry));
 
         var answer = 'Word: "' + maxWord + '", Score: ' + maxScore;
         $("#mazeSolution").html(answer);
