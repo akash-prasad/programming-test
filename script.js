@@ -19,8 +19,30 @@ $(function () {
     }
 
     function calculatingTheScore(grid, visited, row, col, word, score) {
+        visited[row][col] = true;
 
+        word += grid[row][col];
+        score += getScore(grid[row][col]);
 
+        if (score > maxScore) {
+            maxScore = score;
+            maxWord = word;
+        }
+
+        for (let i = 0; i < directions.length; i++) {
+            let nextRow = row + directions[i][0];
+            let nextCol = col + directions[i][1];
+
+            if (nextRow >= 0
+                && nextRow < grid.length
+                && nextCol >= 0
+                && nextCol < grid[row].length
+                && !visited[nextRow][nextCol]) {
+                calculatingTheScore(grid, visited, nextRow, nextCol, word, score);
+            }
+        }
+
+        visited[row][col] = false;
     }
 
     function textToArray(text) {
