@@ -1,7 +1,7 @@
-$(function() {
+$(function () {
     let maxWord = "";
     let maxScore = 0;
-    let direction = [[0, 1], [1, 0], [0, -1], [-1, 0]];
+    let directions = [[0, 1], [1, 0], [0, -1], [-1, 0]];
     let vowels = ["a", "e", "i", "o", "u"];
 
     function getScore(c) {
@@ -9,8 +9,8 @@ $(function() {
             return -10;
         }
 
-        for (let vowel in vowels) {
-            if (c === vowel) {
+        for (var index in vowels) {
+            if (c === vowels[index]) {
                 return 3;
             }
         }
@@ -18,14 +18,21 @@ $(function() {
         return -2;
     }
 
-    $("#mazeForm").on("submit", function(event) {
+    function textToArray(text) {
+        let lines = text.split("\n");
+
+        for (let i = 0; i < lines.length; i++) {
+            lines[i] = lines[i].split('');
+        }
+
+        return lines;
+    }
+
+    $("#mazeForm").on("submit", function (event) {
         let mazeEntry = $.trim($("#mazeEntry").val());
-        let lines = mazeEntry.split("\n");
 
-        console.log('score:' + getScore('a'));
-
-        var answer = 'Word: "", Score: ';
-        $("#mazeSolution").html(mazeEntry);
+        var answer = 'Word: "' + maxWord + '", Score: ' + maxScore;
+        $("#mazeSolution").html(answer);
         event.preventDefault();
     });
 });
